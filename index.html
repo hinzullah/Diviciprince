@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"> -->
     <title>#SURGEWITHDIVICIPRINCE</title>
-    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <!-- <script src="https://cdn.emailjs.com/dist/email.min.js"></script> -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
     <header>
         <div class="logo">
             <img src="./images/banner.jpg" alt="Divici Prince">
             <h1>SURGE</h1>
         </div>
         <nav class="goal">
-            <ul>
+            <span class="button_holder">
+                <button>
+                +
+                </button>
+            </span>
+           
+            <ul class="link_holder">
                 <li><a href="#about">About</a></li>
                 <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#offices">Offices</a></li>
@@ -23,13 +30,18 @@
                 <li><a href="#agenda">Agenda</a></li>
                 <li><a href="#goals">Goals</a></li>
             </ul>
-        </nav>
 
-        <div class="btn_join">
-            <input type="button" value="Join US">
-        </div>
+            <div class="btn_join join__btn">
+               <input type="button" value="Join US">
+           </div>
+
+        </nav> 
+     
     </header>
-    <main>
+    
+   
+  
+    <section class="banner_holder">
         <div class="banner">
             <div class="fire"></div>
             <div class="bubbles">
@@ -44,343 +56,346 @@
                 <h2>Join the movement for a brighter student future!</h2>
                 <input type="button" value="Get involved">
             </div>
-        </div>
-    </main>
-
-    
-    <div class="qa-container">
-        <h2>Your Questions Are being Answered</h2>
-        <div class="question" onclick="toggleAnswer(this)">
-            <h3>What is SURGE WITH DIVCIPRINCE?</h3>
-        </div>
-        <div class="answer">
-            <p>SURGE WITH DIVCIPRINCE is a campaign movement for the student union election focusing on a brighter student future.</p>
-        </div>
-        <div class="question" onclick="toggleAnswer(this)">
-            <h3>How can I join the movement?</h3>
-        </div>
-        <div class="answer">
-            <p>You can join the movement by clicking the "Get involved" button on the website and filling out the form.</p>
-        </div>
-        <div class="question" onclick="toggleAnswer(this)">
-            <h3>What are the key goals of the campaign?</h3>
-        </div>
-        <div class="answer">
-            <p>The key goals include enhancing student welfare, promoting academic excellence, and ensuring transparent governance.</p>
-        </div>
-        <div class="question" onclick="toggleAnswer(this)">
-            <h3>What are DivicPrince's achievements?</h3>
-        </div>
-        <div class="answer">
-            <p>Divici has led multiple initiatives, boosting student engagement and welfare!
-
-                <p>1. Organiser of Menstrual Hygiene Program held on 29th March, 2024.</p>
-                <p>2. Organiser of the Inter Hostel football competition coming up on 10th July, 2024.</p>
-                <p>3. ⁠SKILL UP FUTMINNA 1.0 where 10 students were equipped with digital and software skills in a bid to be self empowered.</p>
-                <p>4. Best Class rep of the year, GLAMOUR AWARDS '23.</p>
-                <p>5. Face of 300 level '23 GLAMOUR AWARDS '23</p>
-                <p>6. Most efficient Media Outlet of the Year, SUG Awards '23.</p>
-                <p>7. Planning committee, SUG Purple debate championship '23</p></p>
-        </div>
-
-        <div class="question" onclick="toggleAnswer(this)">
-            <h3>What offices has he held?</h3>
-        </div>
-        <div class="answer">
-            <p>1. Class representative Computer science department 2019 set till date.</p>
-            <p>2. Public Relations Officer SUG 22/23.</p>
-            <p>3. Representative of School of Information and Communication Technology at Student</p> <p>Representative Assembly, SUG 23/24.</p>
-            <p>4. SUG Sport Committee Chairman 23/24.</p>
-            <p>5. President ACS Niger State Chapter.</p>
-            <p>6. Chief Press Secretary, SUG 23/23.</p>
-            <p>7. Public Relations Officer, Intellectual property club.</p>
-            <p>8. Member, FUTMinna students Anti - Corruption Vanguard.</p></p>
-        </div>
-
-        <div class="question" onclick="toggleAnswer(this)">
-            <h3>What is his manifesto about?</h3>
-        </div>
-        <div class="answer">
-            <p>A commitment to transparency, inclusivity, and fun!</p>
-        </div>
-
-        <div class="question" onclick="toggleAnswer(this)">
-            <h3>How can I support the campaign?</h3>
-        </div>
-        <div class="answer">
-            <p>Spread the word and join our events!</p> 
-
-            <p>Join The above community</p>
-        </div>
-
-        <div class="question" onclick="toggleAnswer(this)">
-            <h3>What’s the campaign theme?</h3>
-        </div>
-        <div class="answer">
-            <p>#SURGEWITHDIVICPRINCE - Let’s make waves!</p>
-        </div>
-
-    </div>
-    
-
-    <section id="about" class="fade-in">
-        <img src="./images/divici.jpg" alt="Divici Prince">
-        <div class="content">
-            <h3>About DivciPrince</h3>
-            <p>A visionary leader with a track record of excellence, DivciPrince has been at the forefront of student advocacy, championing causes that matter. From organizing groundbreaking events to leading impactful initiatives, his journey is nothing short of inspiring.</p>
-            <p>With a heart for service and a mind for strategy, DivciPrince has held prestigious positions within the student union, including Public Relations Officer SUG 22/23 and Class representative Computer science department 2019 set till date. His leadership style is inclusive, empowering every voice to be heard and every idea to flourish.</p>
-             <p>Divine Prince Daniel, DIVCIPRINCE is a distinguished Technical Writer, a skilled Programmer and website developer, a devoted humanitarian, and a notable student leader. 
-                He is Presently holding the esteemed Position as a senator representing SICT in the Student Representative Assembly, at the Student Union Government, FUTMinna.
-                </p>   
-            
-            <p>As he steps into the role of Student Union President, DivciPrince is ready to take the student body to new heights. His manifesto is not just a plan; it's a promise to elevate the student experience and create a vibrant campus community.</p>
-            <p>SUPPORT DIVCIPRINCE@SUG '24 The movement for positive change is gaining momentum! Hop aboard!!</p>
-        </div>
+      </div> 
+        
     </section>
-
-    <div class="marquee-container">
-        <div class="marquee">
-            <h1>Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future!</h1>
-        </div>
-    </div>
-
-    <div class="content-container">
-        <section id="manifesto" class="fade-in">
-            <h3 onclick="toggleAnswer(this)">Manifesto</h3>
-            <p>My name is Divine Prince Daniel, and I am running for the office of Student Union President. My campaign, SURGE WITH DIVCIPRINCE, is focused on building a brighter future for all students. My experience and dedication to student welfare, academic excellence, and transparent governance form the core of my manifesto.
-            <p>Key Goals:</p>
-            <ul>
-                <li><strong>Enhancing Student Welfare:</strong> Improve campus facilities and amenities. Increase support services for mental health and well-being. Advocate for affordable and quality healthcare services.</li>
-                <li><strong>Promoting Academic Excellence:</strong> Provide resources and support for academic success. Organize skill development programs and workshops. Facilitate access to internships and job placements.</li>
-                <li><strong>Ensuring Transparent Governance:</strong> Implement transparent financial management and reporting. Foster open communication between the union and students. Encourage student participation in decision-making processes.</li>
-            </ul>
-            </p>
-        </section>
-
-
-        <section id="agenda" class="fade-in">
-            <h3 onclick="toggleAnswer(this)">Agenda</h3>
-            <p>The key goals include enhancing student welfare, promoting academic excellence, and ensuring transparent governance.
-
-            <p>- S: Strengthen - Strengthen the student community through unity and collective action.</p>
-            <p>- U : Uplift - Uplift student welfare by addressing key issues and providing necessary resources.</p>
-            <p>- R: Represent - Represent all student voices fairly and transparently in decision-making processes.</p>
-            <p>- G: Grow - Grow opportunities for academic and personal development through various programs and initiatives.</p>
-            <p>- E: Empower - Empower students with the skills and knowledge needed to succeed and make a positive impact.</p></p>
-        </section>
-
-        <section id="goals" class="fade-in">
-            <h3 onclick="toggleAnswer(this)">Goals</h3>
-            <ul>
-                <li> Support: Foster a supportive environment where every student feels valued and heard.</li>
-                <li>Unify: Build a united student body through inclusive events and initiatives.</li>
-                <li>Revitalize: Revamp campus life with innovative programs and engaging activities.</li>
-                <li>Guide: Provide guidance and resources for academic and career success.</li>
-                <li>Engage: Enhance student engagement through transparent governance and active participation in decision-making.</li>
-            </ul>
-        </section>
-        
-
-        <section id="support" class="fade-in">
-            <h3 onclick="toggleAnswer(this)">Support the Campaign</h3>
-            <p>Spread the word and join our events! Click the "Get Involved" button on the website and fill out the form.</p>
-        </section>
-        
-                <section id="theme" class="fade-in">
-                    <h3>Campaign Theme</h3>
-                    <p>#SURGEWITHDIVICPRINCE - Let’s make waves!</p>  
-        </section>
-    </div>
-    <div class="marquee-container">
-        <div class="marquee">
-            <h1>Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future! Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future!</h1>
-        </div>
-    </div>
-
-    <div class="slider">
-        <div class="slides">
-            <div class="slide">
-                <img src="images/WhatsApp Image 2024-08-02 at 16.55.37_3a065e0e.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/WhatsApp Image 2024-08-02 at 16.55.34_82e5a497.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/WhatsApp Image 2024-08-02 at 16.55.37_99449738.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            
-            <div class="slide">
-                <img src="images/WhatsApp Image 2024-08-02 at 17.08.46_13c35488.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images//akaka.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/chemical footballers.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/all the best.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/them girls.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/leaders2.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/girls.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/500l.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/footbalers.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/general.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/politics.jpg" alt="Divici Prince">
-                <h1>Vote for Divci!!! He's the real deal</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/winners.jpg" alt="Divici Prince">
-                <h1>Join the movement for a brighter future</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <div class="slide">
-                <img src="images/chemical footballers.jpg" alt="Divici Prince">
-                <h1>Join the movement for a brighter future</h1>
-                <h3>DIVINE PRINCE DANIEL</h3>
-                <p>@SUG 001</p>
-            </div>
-            <!-- Add more slides as needed -->
-        </div>
-        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
-        <a class="next" onclick="changeSlide(1)">&#10095;</a>
-    </div>
-
-    <div class="content_white">
-        <h1>SURGE WITH DIVCIPRINCE</h1>
-        <h2>Be part of a transformative journey. Your voice matters!</h2>
-        <input type="button" value="Get involved">
-    </div>
     
-    <div class="grid-container">
-        <div class="grid-item">
-            <h1>2000+</h1>
-            <h2>Happy Students</h2>
-        </div>
-        <div class="grid-item">
-            <h1>10+</h1>
-            <h2>Successful Events</h2>
-        </div>
-        <div class="grid-item">
-            <h1>1</h1>
-            <h2>Visionary Leader</h2>
-        </div>
-    </div>
-
-    <div class="marquee-container">
-        <div class="marquee">
-            <h1>Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future!</h1>
-        </div>
-    </div>
-
-    <div class="updates-container">
-        <h1>Latest Updates</h1>
-        <div class="updates-grid">
-            <div class="update-item">
-                <img src="images/photo_2024-08-01_22-06-20.jpg" alt="Update Image">
-                <h2>DivciPrince Declaration of Ambition</h2>
-                <p>July 1, 2024</p>
-                <p>Join the movement! Divi's campaign is officially underway. Get ready to surge with DivciPrince!</p>
+   
+    
+        
+        <div class="qa-container">
+            <h2>Your Questions Are being Answered</h2>
+            <div class="question" onclick="toggleAnswer(this)">
+                <h3>What is SURGE WITH DIVCIPRINCE?</h3>
             </div>
+            <div class="answer">
+                <p>SURGE WITH DIVCIPRINCE is a campaign movement for the student union election focusing on a brighter student future.</p>
+            </div>
+            <div class="question" onclick="toggleAnswer(this)">
+                <h3>How can I join the movement?</h3>
+            </div>
+            <div class="answer">
+                <p>You can join the movement by clicking the "Get involved" button on the website and filling out the form.</p>
+            </div>
+            <div class="question" onclick="toggleAnswer(this)">
+                <h3>What are the key goals of the campaign?</h3>
+            </div>
+            <div class="answer">
+                <p>The key goals include enhancing student welfare, promoting academic excellence, and ensuring transparent governance.</p>
+            </div>
+            <div class="question" onclick="toggleAnswer(this)">
+                <h3>What are DivicPrince's achievements?</h3>
+            </div>
+            <div class="answer">
+                <p>Divici has led multiple initiatives, boosting student engagement and welfare!
+    
+                    <p>1. Organiser of Menstrual Hygiene Program held on 29th March, 2024.</p>
+                    <p>2. Organiser of the Inter Hostel football competition coming up on 10th July, 2024.</p>
+                    <p>3. ⁠SKILL UP FUTMINNA 1.0 where 10 students were equipped with digital and software skills in a bid to be self empowered.</p>
+                    <p>4. Best Class rep of the year, GLAMOUR AWARDS '23.</p>
+                    <p>5. Face of 300 level '23 GLAMOUR AWARDS '23</p>
+                    <p>6. Most efficient Media Outlet of the Year, SUG Awards '23.</p>
+                    <p>7. Planning committee, SUG Purple debate championship '23</p></p>
+            </div>
+    
+            <div class="question" onclick="toggleAnswer(this)">
+                <h3>What offices has he held?</h3>
+            </div>
+            <div class="answer">
+                <p>1. Class representative Computer science department 2019 set till date.</p>
+                <p>2. Public Relations Officer SUG 22/23.</p>
+                <p>3. Representative of School of Information and Communication Technology at Student</p> <p>Representative Assembly, SUG 23/24.</p>
+                <p>4. SUG Sport Committee Chairman 23/24.</p>
+                <p>5. President ACS Niger State Chapter.</p>
+                <p>6. Chief Press Secretary, SUG 23/23.</p>
+                <p>7. Public Relations Officer, Intellectual property club.</p>
+                <p>8. Member, FUTMinna students Anti - Corruption Vanguard.</p></p>
+            </div>
+    
+            <div class="question" onclick="toggleAnswer(this)">
+                <h3>What is his manifesto about?</h3>
+            </div>
+            <div class="answer">
+                <p>A commitment to transparency, inclusivity, and fun!</p>
+            </div>
+    
+            <div class="question" onclick="toggleAnswer(this)">
+                <h3>How can I support the campaign?</h3>
+            </div>
+            <div class="answer">
+                <p>Spread the word and join our events!</p> 
+    
+                <p>Join The above community</p>
+            </div>
+    
+            <div class="question" onclick="toggleAnswer(this)">
+                <h3>What’s the campaign theme?</h3>
+            </div>
+            <div class="answer">
+                <p>#SURGEWITHDIVICPRINCE - Let’s make waves!</p>
+            </div>
+    
+        </div>
+    
+        <section id="about" class="fade-in">
+            <img src="./images/divici.jpg" class="davci__img" alt="Divici Prince">
+            <div class="content">
+                <h3>About DivciPrince</h3>
+                <p>A visionary leader with a track record of excellence, DivciPrince has been at the forefront of student advocacy, championing causes that matter. From organizing groundbreaking events to leading impactful initiatives, his journey is nothing short of inspiring.</p>
+                <p>With a heart for service and a mind for strategy, DivciPrince has held prestigious positions within the student union, including Public Relations Officer SUG 22/23 and Class representative Computer science department 2019 set till date. His leadership style is inclusive, empowering every voice to be heard and every idea to flourish.</p>
+                 <p>Divine Prince Daniel, DIVCIPRINCE is a distinguished Technical Writer, a skilled Programmer and website developer, a devoted humanitarian, and a notable student leader. 
+                    He is Presently holding the esteemed Position as a senator representing SICT in the Student Representative Assembly, at the Student Union Government, FUTMinna.
+                    </p>   
+                
+                <p>As he steps into the role of Student Union President, DivciPrince is ready to take the student body to new heights. His manifesto is not just a plan; it's a promise to elevate the student experience and create a vibrant campus community.</p>
+                <p>SUPPORT DIVCIPRINCE@SUG '24 The movement for positive change is gaining momentum! Hop aboard!!</p>
+            </div>
+        </section>
+    
+        <div class="marquee-container">
+            <div class="marquee">
+                <h1>Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future!</h1>
+            </div>
+        </div>
+    
+        <div class="content-container">
+            <section id="manifesto" class="fade-in">
+                <h3 onclick="toggleAnswer(this)">Manifesto</h3>
+                <p>My name is Divine Prince Daniel, and I am running for the office of Student Union President. My campaign, SURGE WITH DIVCIPRINCE, is focused on building a brighter future for all students. My experience and dedication to student welfare, academic excellence, and transparent governance form the core of my manifesto.
+                <p>Key Goals:</p>
+                <ul>
+                    <li><strong>Enhancing Student Welfare:</strong> Improve campus facilities and amenities. Increase support services for mental health and well-being. Advocate for affordable and quality healthcare services.</li>
+                    <li><strong>Promoting Academic Excellence:</strong> Provide resources and support for academic success. Organize skill development programs and workshops. Facilitate access to internships and job placements.</li>
+                    <li><strong>Ensuring Transparent Governance:</strong> Implement transparent financial management and reporting. Foster open communication between the union and students. Encourage student participation in decision-making processes.</li>
+                </ul>
+                </p>
+            </section>
+    
+    
+            <section id="agenda" class="fade-in">
+                <h3 onclick="toggleAnswer(this)">Agenda</h3>
+                <p>The key goals include enhancing student welfare, promoting academic excellence, and ensuring transparent governance.
+    
+                <p>- S: Strengthen - Strengthen the student community through unity and collective action.</p>
+                <p>- U : Uplift - Uplift student welfare by addressing key issues and providing necessary resources.</p>
+                <p>- R: Represent - Represent all student voices fairly and transparently in decision-making processes.</p>
+                <p>- G: Grow - Grow opportunities for academic and personal development through various programs and initiatives.</p>
+                <p>- E: Empower - Empower students with the skills and knowledge needed to succeed and make a positive impact.</p></p>
+            </section>
+    
+            <section id="goals" class="fade-in">
+                <h3 onclick="toggleAnswer(this)">Goals</h3>
+                <ul>
+                    <li> Support: Foster a supportive environment where every student feels valued and heard.</li>
+                    <li>Unify: Build a united student body through inclusive events and initiatives.</li>
+                    <li>Revitalize: Revamp campus life with innovative programs and engaging activities.</li>
+                    <li>Guide: Provide guidance and resources for academic and career success.</li>
+                    <li>Engage: Enhance student engagement through transparent governance and active participation in decision-making.</li>
+                </ul>
+            </section>
             
+    
+            <section id="support" class="fade-in">
+                <h3 onclick="toggleAnswer(this)">Support the Campaign</h3>
+                <p>Spread the word and join our events! Click the "Get Involved" button on the website and fill out the form.</p>
+            </section>
             
-            <div class="update-item">
-                <img src="images/photo_2024-08-01_22-06-47.jpg" alt="Update Image">
-                <h2>DivciPrince Goodluck Message</h2>
-                <p>July 10, 2024</p>
-                <p>Join the movement! Divciprince campaign is officially underway. Get ready to surge with Divi Prince!</p>
-            </div>
-
-            <div class="update-item">
-                <img src="images/WhatsApp Image 2024-08-02 at 16.55.37_3a065e0e.jpg" alt="Update Image">
-                <h2>DivciPrince Menstrual Hygiene Program</h2>
-                <p>July 1, 2024</p>
-                <p>Join the movement! DivciPrince campaign is officially underway. Get ready to surge with Divi Prince!</p>
-            </div>
-
-            <div class="update-item">
-                <img src="images/photo_2024-08-01_22-01-52.jpg" alt="Update Image">
-                <h2>DivciPrince Inter Hostel Football Combination</h2>
-                <p>July 1, 2024</p>
-                <p>Join the movement! DivciPrince campaign is officially underway. Get ready to surge with Divi Prince!</p>
+                    <section id="theme" class="fade-in">
+                        <h3>Campaign Theme</h3>
+                        <p>#SURGEWITHDIVICPRINCE - Let’s make waves!</p>  
+            </section>
+        </div>
+        <div class="marquee-container">
+            <div class="marquee">
+                <h1>Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future! Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future!</h1>
             </div>
         </div>
-    </div>
-
-    <div class="marquee-container">
-        <div class="marquee">
-            <h1>Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future!</h1>
+    
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="images/WhatsApp Image 2024-08-02 at 16.55.37_3a065e0e.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/WhatsApp Image 2024-08-02 at 16.55.34_82e5a497.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/WhatsApp Image 2024-08-02 at 16.55.37_99449738.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                
+                <div class="slide">
+                    <img src="images/WhatsApp Image 2024-08-02 at 17.08.46_13c35488.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images//akaka.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/chemical footballers.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/all the best.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/them girls.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/leaders2.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/girls.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/500l.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/footbalers.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/general.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/politics.jpg" alt="Divici Prince">
+                    <h1>Vote for Divci!!! He's the real deal</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/winners.jpg" alt="Divici Prince">
+                    <h1>Join the movement for a brighter future</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+                <div class="slide">
+                    <img src="images/chemical footballers.jpg" alt="Divici Prince">
+                    <h1>Join the movement for a brighter future</h1>
+                    <h3>DIVINE PRINCE DANIEL</h3>
+                    <p>@SUG 001</p>
+                </div>
+               
+            </div>
+            <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+            <a class="next" onclick="changeSlide(1)">&#10095;</a>
         </div>
-    </div>
+    
+        <div class="content_white">
+            <h1>SURGE WITH DIVCIPRINCE</h1>
+            <h2>Be part of a transformative journey. Your voice matters!</h2>
+            <input type="button" value="Get involved">
+        </div>
+        
+        <div class="grid-container">
+            <div class="grid-item">
+                <h1>2000+</h1>
+                <h2>Happy Students</h2>
+            </div>
+            <div class="grid-item">
+                <h1>10+</h1>
+                <h2>Successful Events</h2>
+            </div>
+            <div class="grid-item">
+                <h1>1</h1>
+                <h2>Visionary Leader</h2>
+            </div>
+        </div>
+    
+        <div class="marquee-container">
+            <div class="marquee">
+                <h1>Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future!</h1>
+            </div>
+        </div>
+    
+         <div class="updates-container">
+            <h1>Latest Updates</h1>
+            <div class="updates-grid">
+                <div class="update-item">
+                    <img src="images/photo_2024-08-01_22-06-20.jpg" alt="Update Image">
+                    <h2>DivciPrince Declaration of Ambition</h2>
+                    <p>July 1, 2024</p>
+                    <p>Join the movement! Divi's campaign is officially underway. Get ready to surge with DivciPrince!</p>
+                </div>
+                
+                
+                <div class="update-item">
+                    <img src="images/photo_2024-08-01_22-06-47.jpg" alt="Update Image">
+                    <h2>DivciPrince Goodluck Message</h2>
+                    <p>July 10, 2024</p>
+                    <p>Join the movement! Divciprince campaign is officially underway. Get ready to surge with Divi Prince!</p>
+                </div>
+    
+                <div class="update-item">
+                    <img src="images/WhatsApp Image 2024-08-02 at 16.55.37_3a065e0e.jpg" alt="Update Image">
+                    <h2>DivciPrince Menstrual Hygiene Program</h2>
+                    <p>July 1, 2024</p>
+                    <p>Join the movement! DivciPrince campaign is officially underway. Get ready to surge with Divi Prince!</p>
+                </div>
+    
+                <div class="update-item">
+                    <img src="images/photo_2024-08-01_22-01-52.jpg" alt="Update Image">
+                    <h2>DivciPrince Inter Hostel Football Combination</h2>
+                    <p>July 1, 2024</p>
+                    <p>Join the movement! DivciPrince campaign is officially underway. Get ready to surge with Divi Prince!</p>
+                </div>
+            </div>
+        </div> 
+    
+        <div class="marquee-container">
+            <div class="marquee">
+                <h1>Join the SURGE WITH DIVCIPRINCE campaign for a brighter student future!</h1>
+            </div>
+        </div>
+    
+        <div class="contact-container">
+            <h1>Get in touch</h1>
+            <input type="text" id="name" placeholder="Name">
+            <input type="email" id="email" placeholder="Email">
+            <input type="text" id="message" placeholder="Message">
+            <input type="button" value="Send It" onclick="sendEmail()">
+        </div>
+    
+        <footer>
+            <p>&copy; 2024 #SURGEWITHDIVICIPRINCE</p>
+        </footer>
 
-    <div class="contact-container">
-        <h1>Get in touch</h1>
-        <input type="text" id="name" placeholder="Name">
-        <input type="email" id="email" placeholder="Email">
-        <input type="text" id="message" placeholder="Message">
-        <input type="button" value="Send It" onclick="sendEmail()">
-    </div>
 
-    <footer>
-        <p>&copy; 2024 #SURGEWITHDIVICIPRINCE</p>
-    </footer>
-
-    <script src="scripts.js"></script>
+    <!-- <script src="scripts.js"></script> -->
 </body>
 </html>
