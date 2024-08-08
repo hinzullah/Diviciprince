@@ -300,8 +300,6 @@ main {
     text-align: center;
 }
 
-
-
 section#about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -657,6 +655,7 @@ footer {
  @media (min-width: 760px) {
     /* body{
         width: 780px;
+        overflow-x: hidden;
     }
     header {
         padding: 0.5em;
@@ -687,30 +686,17 @@ footer {
     }
     main{
         width: 810px;
+        padding: 0;
+        margin: 0 auto;
     }
     .content {
         padding: 1rem;
-        width: 810px;
     }
     .qa-container {
-        justify-content: center;
+        width: 810px;
         padding:0 0.5rem;
-    } */
+    }
     
  
-  
-    .davci__img{
-        width: 50%;
-        justify-self: center;
-    }
-} 
-
-@media (min-width: 1400px) {
     
-   #about{
-        margin: 0 auto;
-   }
-   .davci__img{
-    width: 30%;
-   }
 }
