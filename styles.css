@@ -130,7 +130,7 @@ main {
 .banner_holder{
     min-width: 100%;
     height: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
   
 }
 .banner {
