@@ -43,6 +43,8 @@ header {
     align-items: center;
     border: 2px solid black;
     font-size: 8px;
+    padding: 5px;
+    overflow-x: visible;
 }
 
 .logo img {
@@ -129,7 +131,7 @@ main {
     min-width: 100%;
     height: auto;
     border: 2px solid red;
-
+  
 }
 .banner {
     /* min-width: 100%; */
@@ -142,6 +144,7 @@ main {
     align-items: center;
     text-align: center;
      color: white;
+   
 }
 
 
@@ -219,7 +222,7 @@ main {
 .content {
     text-align: center;
     background: rgba(0, 0, 0, 0.6);
-    /* padding: 3rem; */
+    padding: 1rem;
     z-index: 2;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
@@ -259,7 +262,7 @@ main {
     width: 100%;
     background: white;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 5px auto;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
@@ -267,16 +270,18 @@ main {
     flex-direction: column;
     justify-content: center;
     padding:0 1rem;
+    
+    /* border: 2px solid black; */
 }
 .qa-container h2{
     text-align: center;
+    color: black;
 }
 
 .question {
     width: 100%;
     padding: 1rem;
     background: #333;
-    color: white;
     cursor: pointer;
     border-bottom: 1px solid #ccc;
     transition: background 0.3s;
@@ -284,7 +289,9 @@ main {
     border-radius: 8px;
 
 }
-
+.question h3{
+    color: white;
+}
 .question:hover {
     background: #555;
 }
@@ -300,11 +307,13 @@ main {
     text-align: center;
 }
 
+
+
 section#about {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: minmax(100px, auto);
-    gap: 2rem;
+    /* gap: 2rem; */
     width: 100%;
     max-width: 1200px;
     background: white;
@@ -321,6 +330,7 @@ section#about {
     width: 100%;
     height: auto;
     border-radius: 8px;
+    margin-bottom: 5px;
 }
 
 
@@ -330,6 +340,7 @@ section#about .content {
     grid-row: span 1;
     flex-direction: column;
     justify-content: center;
+    
 }
 
 section#about .content h3 {
@@ -490,8 +501,9 @@ p {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 200px));
-   justify-content: space-evenly;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 180px));
+    justify-content: space-evenly;
+    /* gap: 5px; */
     min-width: 100%;
     max-width: 1200px;
     text-align: center;
@@ -499,7 +511,8 @@ p {
 }
 
 .grid-item {
-    padding: 5px;
+    /* width: 200px; */
+    padding: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
@@ -655,7 +668,6 @@ footer {
  @media (min-width: 760px) {
     /* body{
         width: 780px;
-        overflow-x: hidden;
     }
     header {
         padding: 0.5em;
@@ -686,17 +698,42 @@ footer {
     }
     main{
         width: 810px;
-        padding: 0;
-        margin: 0 auto;
     }
     .content {
         padding: 1rem;
+        width: 810px;
     }
     .qa-container {
-        width: 810px;
+        justify-content: center;
         padding:0 0.5rem;
-    }
+    } */
     
  
     
+    body{
+        background-color: yellow;
+    }
+    .davci__img{
+        width: 50%;
+        justify-self: center;
+    }
+    .link_holder{
+        display: flex;
+    }
+    .button_holder{
+        display: none;
+
+    }
+} 
+
+@media (min-width: 1400px) {
+    body{
+        background-color: red;
+    }
+   #about{
+        margin: 0 auto;
+   }
+   .davci__img{
+        width: 35%;
+   }
 }
